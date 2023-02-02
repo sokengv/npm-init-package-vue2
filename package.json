@@ -1,0 +1,38 @@
+{
+  "name": "sokeng-test",
+  "private": false,
+  "version": "0.0.8",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/lv-button.umd.js",
+  "module": "./dist/lv-button.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lv-button.es.js",
+      "require": "./dist/lv-button.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "description": "A simple vuejs button plugin",
+  "keywords": [
+    "test",
+    "learning"
+  ],
+  "author": {
+    "name": "Sokeng VORN",
+    "email": "sokeng.vorn001@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "vue": "^2.7.7",
+    "vite": "^3.0.0 || ^4.0.0"
+  }
+}
